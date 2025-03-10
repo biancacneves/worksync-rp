@@ -1,1 +1,60 @@
 <app-navbar></app-navbar>
+
+<main>
+    <h1>Tarefas</h1>
+    <div class="container">
+        <div class="flex">
+            <div class="search-bar">
+                <span class="material-icons search">search</span>
+                <input class="search" type="text" placeholder="Buscar tarefa...">
+            </div>
+            <button class="btn-menu">&#9776;</button>
+            <button class="btn-criar-tarefa">+ Tarefa</button>
+        </div>
+
+        <div class="tabela-tarefas">
+            <div class="tabela-header">
+                <span class="col">Tarefa</span>
+                <span class="col">Projeto</span>
+                <span class="col">Status</span>
+                <span class="col">Ações</span>
+            </div>
+
+            <div class="tabela-linha">
+                <span class="col">Criar Login</span>
+                <span class="col">Projeto Wave</span>
+                <span class="col"><span class="status status-pendente">Pendente</span></span>
+                <span class="col acoes">
+                    <button class="excluir"><span class="material-icons delete">delete</span></button>
+                </span>
+            </div>
+
+            <div class="tabela-linha">
+                <span class="col">Criar Dashboard</span>
+                <span class="col">Projeto Obsidian</span>
+                <span class="col"><span class="status status-pendente">Pendente</span></span>
+                <span class="col acoes">
+                    <button class="excluir"><span class="material-icons delete">delete</span></button>
+                </span>
+            </div>
+
+            <div class="tabela-linha">
+                <span class="col">Revisar Design</span>
+                <span class="col">Projeto X</span>
+                <span class="col"><span class="status status-andamento">Em Andamento</span></span>
+                <span class="col acoes">
+                    <button class="excluir"><span class="material-icons delete">delete</span></button>
+                </span>
+            </div>
+
+            <div class="tabela-linha">
+                <span class="col">Publicar Site</span>
+                <span class="col">Projeto Y</span>
+                <span class="col"><span class="status status-concluido">Concluído</span></span>
+                <span class="col acoes">
+                    <button class="excluir"><span class="material-icons delete">delete</span></button>
+                </span>
+            </div>
+        </div>
+    </div>
+</main>
